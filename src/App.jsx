@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import { Route,Routes } from 'react-router-dom'
 import Navigation from './components/navigation'
-import Home from './components/home'
+import Feed from './components/feed'
 
 
 
@@ -10,11 +10,13 @@ function App() {
 
   return (
     <> 
+    <div className='flex'>
    <Navigation/>
      <Routes>
-      <Route path='/' element={<Home/>} />
-      <Route path='/home' element={<Home/>} />
+      <Route path='/' element={<Feed/>} />
+      <Route path='/feed' element={<Feed/>} />
      </Routes>
+    </div>
     </>
   )
 }
