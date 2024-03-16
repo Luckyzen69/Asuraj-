@@ -1,13 +1,19 @@
+import Post from "./post"
 import POV from "./pov"
+import '../index.css'
 export default function feed(){
     return(
         <>
-       <div className='min-w-max flex-auto  overflow-auto border ' >
-        <div className="sticky top-0 z-auto border pl-10  ">
+       <div className='feed min-w-max flex-auto   border ml-32 mr-32 ' >
+        <div>
             <h2 className="font-bold text-xl fomt-mono ">Home</h2>
         </div>
+        <hr />
         <POV/>
-        
+        <Post/>
+        <Post/>
+        <Post/>
+        <Post/>
        </div>
         </>
     )

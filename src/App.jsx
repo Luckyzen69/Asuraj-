@@ -10,11 +10,10 @@ function App() {
 
   return (
     <> 
-    <div className='flex max-w-screen-xl	h-screen ml-auto mr-auto p-2'>
+    <div className='flex 	h-screen ml-auto mr-auto p-2 overflow-y-scroll'>
    <Navigation/>
      <Routes>
       <Route path='/' element={<Feed/>} />
-      <Route path='/feed' element={<Feed/>} />
      </Routes>
      <Widgets/>
     </div>

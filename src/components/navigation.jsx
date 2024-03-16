@@ -11,9 +11,9 @@
   export default function Navigation(){
       return ( 
           <>
-          <section >
+          <section className='sticky top-0'>
 
-  <div className='flex p-2 m-2'>
+  <div className='flex p-2 m-2 '>
   <img src={Idk} alt="logo" className='h-10 w-10 m-2 rounded-md' />
   <h1 className='text-4xl font-serif m-2'>Asuraj</h1>
   </div>

@@ -5,3 +5,7 @@
 .sidebarOption--active{
     color:red;
 }
+
+.feed::-webkit-scrollbar {
+    display: flex;
+  }
