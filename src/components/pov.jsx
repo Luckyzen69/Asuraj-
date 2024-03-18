@@ -10,9 +10,9 @@ export default function POV(){
           <form className='p-4'>
             <div className=' flex ' >
                 <img src={J} alt="" className='h-12'  />
-                    <input type="text" placeholder="What you thinking mate? " className=' flex flex-1 ml-2'/>
+                    <textarea type="text" placeholder="What you thinking mate? " className=' flex flex-1 ml-2 overscroll-y-none'/>
                 </div>
-                <div className='flex justify-start text-center'>
+                <div className='flex justify-start text-center space-x-10'>
                    <CiImageOn type="text" src="" alt="" placeholder='input your image'className='text-3xl m-2' />
                    <FaCameraRetro type="text" src="" alt="" placeholder='input your image'className='text-2xl m-2' />
                    <BsEmojiSunglasses type="text" src="" alt="" placeholder='input your image'className='text-2xl m-2' />

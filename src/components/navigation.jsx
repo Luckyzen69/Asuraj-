@@ -25,7 +25,7 @@
 <SidebarOption text="Message" Icon={TbMessage} />
 <SidebarOption text="Notifications" Icon={LiaHotjar} />
 <SidebarOption text="Profile" Icon={ImProfile} />
-<button variant="outlined" className="" fullWidth></button>
+<button variant="outlined" className=" text-3xl font-mono border rounded-lg border-slate-950 hover:bg-orange-700" >Post</button>
   </div>
   </section>
           </>
