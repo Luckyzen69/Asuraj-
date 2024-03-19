@@ -21,11 +21,11 @@
   <div className='flex flex-col    '>
 
 <SidebarOption active text="Home" Icon={BiHomeHeart} />
-<SidebarOption text="Search" Icon={BiSearchAlt} />
+<SidebarOption text="Search" Icon={BiSearchAlt}  />
 <SidebarOption text="Message" Icon={TbMessage} />
 <SidebarOption text="Notifications" Icon={LiaHotjar} />
 <SidebarOption text="Profile" Icon={ImProfile} />
-<button variant="outlined" className=" text-3xl font-mono border rounded-lg border-slate-950 hover:bg-orange-700" >Post</button>
+<button variant="outlined" className=" text-3xl font-mono border rounded-lg border-slate-950 hover:bg-slate-900 hover:text-white  " >Post</button>
   </div>
   </section>
           </>
