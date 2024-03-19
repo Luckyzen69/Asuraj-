@@ -37,7 +37,7 @@ export default function Post({
            </div>
         </div>
          </div>
-        <img src={Forest} alt="" className='h-96   w-auto rounded-md flex ' />
+        <img src={Forest} alt="" className='h-64 object-cover w-auto rounded-md ' />
          <div className='flex text-3xl space-x-24 m-2'>
          <span className='flex '>  <FaHeart className='text-red-800 '/> <span className='text-2xl ml-2 mb-2'>20.4k</span></span>
            <span className='flex '> <FaRegComment /> <span className='text-2xl ml-2 mb-2'>5k</span></span>

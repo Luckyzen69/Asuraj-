@@ -1,13 +1,15 @@
+import { IoFootball } from "react-icons/io5";
+import { BsMusicNoteList } from "react-icons/bs";
 
 
 export default function (){
     return (
         <>
-        <div className="border p-1 m-2 sticky top-0 ">
+        <div className="border p-10 m-2 sticky top-0 ">
 
         <h2 className="font-bold">Excited or Depressed</h2>
-        <div className="space-y-5">
-            <h2 className="font-bold font-mono">#Football</h2>
+        <div className="space-y-5 font-mono">
+            <h2 className="font-bold font-mono flex "><span className="text-xl"><IoFootball/></span>#Football </h2>
             <div>
                 <p>Man City vs Real Madrid</p>
                 <p>Date: April 11, 2024</p>
@@ -28,7 +30,7 @@ export default function (){
                 <p>Date: April 11, 2024</p>
             </div>
             <hr />
-        <h2 className="font-bold font-mono">#Music</h2>
+        <h2 className="font-bold font-mono flex"><span className="text-xl"><BsMusicNoteList/></span>#Music</h2>
         <div>
                 <p> Radiohead</p>
                 <p>Song: No suprises</p>
