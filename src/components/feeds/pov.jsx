@@ -1,4 +1,4 @@
-import J from '../assets/j.png'
+import J from '../../assets/j.png'
 import { CiImageOn } from "react-icons/ci";
 import { FaCameraRetro } from "react-icons/fa";
 import { BsEmojiSunglasses } from "react-icons/bs";

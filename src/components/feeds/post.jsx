@@ -1,12 +1,12 @@
-import J from '../assets/j.png'
+import J from '../../assets/j.png'
 import { MdVerified } from "react-icons/md";
-import We from "../assets/we.jpg"
+import We from "../../assets/we.jpg"
 import { CiHeart } from "react-icons/ci";
 import { BiRepost } from "react-icons/bi";
 import { FaShare } from "react-icons/fa";
 import { FaRegComment } from "react-icons/fa";
 import { FaHeart } from "react-icons/fa";
-import Forest from '../assets/forest.jpg';
+import Forest from '../../assets/forest.jpg';
 export default function Post({
     displayName,
     username,
@@ -18,9 +18,9 @@ export default function Post({
    
     return (
     <>
-    <div className='overflow-y-hidden'>
+    <div className='overflow-y-hidden border border-collapse'>
 
-    <div className="post m-2 flex items-start pb-2  ">
+    <div className="post m-2 flex items-start pb-2">
 
         <div className=''>
         <img src={J} alt="" className='h-12'  />
