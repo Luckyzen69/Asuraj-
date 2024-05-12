@@ -9,17 +9,6 @@ import Noti from "./noti"
       <Noti/> 
       <Noti/> 
       <Noti/> 
-      <Noti/> 
-      <Noti/> 
-      <Noti/> 
-      <Noti/> 
-      <Noti/> 
-      <Noti/> 
-      <Noti/> 
-      <Noti/> 
-      <Noti/> 
-      <Noti/> 
-      <Noti/> 
     </div>
     </>)
  }

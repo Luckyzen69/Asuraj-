@@ -4,7 +4,8 @@ export default {
   theme: {
     extend: {
       colors:{
-        green:"#328572  "
+        green:"#328572 ",
+        violet:"#9400D3	"
       }
     },
   },

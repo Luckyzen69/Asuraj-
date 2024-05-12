@@ -14,16 +14,16 @@
 
   <div className='flex p-2 m-2 '>
   <img src={Idk} alt="logo" className='h-10 w-10 m-2 rounded-md' />
-  <h1 className='text-4xl font-serif m-2'>Asuraj</h1>
+  <h1 className='text-4xl font-serif m-2 text-violet'>Asuraj</h1>
   </div>
 
   <div className='flex flex-col    '> 
 
-<Link to="/home"><SidebarOption active text="Home" Icon={BiHomeHeart} /></Link>
-<Link to="/search"><SidebarOption text="Search" Icon={BiSearchAlt}  /></Link>
-<Link to="messages"><SidebarOption text="Message" Icon={TbMessage} /></Link>
-<Link to="/notifications"><SidebarOption text="Notifications" Icon={LiaHotjar}  /></Link>
-<Link to="/profile"><SidebarOption text="Profile" Icon={ImProfile}  /></Link>
+<Link to="/home"><SidebarOption active text="Home" Icon={BiHomeHeart} /></Link> <hr />
+<Link to="/search"><SidebarOption text="Search" Icon={BiSearchAlt}  /></Link> <hr />
+<Link to="messages"><SidebarOption text="Message" Icon={TbMessage} /></Link> <hr />
+<Link to="/notifications"><SidebarOption text="Notifications" Icon={LiaHotjar}  /></Link> <hr />
+<Link to="/profile"><SidebarOption text="Profile" Icon={ImProfile}  /></Link> <hr />
 <button variant="outlined" className=" text-3xl font-mono border rounded-lg border-slate-950 hover:bg-slate-900 hover:text-white  " >Post</button>
   </div>
   </section>

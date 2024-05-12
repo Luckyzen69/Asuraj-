@@ -13,7 +13,7 @@ export default function Post({
     verified,
     text,
     image,
-    avatar
+    avatare
 }){
    
     return (
