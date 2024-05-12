@@ -22,7 +22,7 @@ export default function Post({
 
     <div className="post m-2 flex items-start pb-2">
 
-        <div className=''>
+        <div className='ml-2  '>
         <img src={J} alt="" className='h-12'  />
         </div>
 
@@ -30,14 +30,14 @@ export default function Post({
            <div className='header '>
             <div className='flex m-2'>
                 <h3 className='flex '>Lagzen Thakuri{""}
-                <span><MdVerified className='m-2 text-center text-cyan-600'/> </span>
+                <span><MdVerified className='m-1 text-center text-cyan-600'/> </span>
                 </h3>
             </div>
-            <p>How you like that</p>
+            <p className='ml-2'>This is a image of a foresst</p>
            </div>
         </div>
          </div>
-        <img src={Forest} alt="" className='h-64 object-cover w-auto rounded-md ' />
+        <img src={Forest} alt="" className='h-72 object-cover w-auto rounded-md ml-1' />
          <div className='flex text-3xl space-x-24 m-2'>
          <span className='flex '>  <FaHeart className='text-red-800 '/> <span className='text-2xl ml-2 mb-2'>20.4k</span></span>
            <span className='flex '> <FaRegComment /> <span className='text-2xl ml-2 mb-2'>5k</span></span>
