@@ -14,7 +14,9 @@ function App() {
   return (
     <> 
     <div className='flex 	h-screen ml-auto mr-auto p-2 overflow-y-scroll'>
+      <div className=''>
    <Navigation/>
+      </div>
      <Routes>
       <Route path='/' element={<Feed/>} />
       <Route path='/home' element={<Feed/>} />
@@ -23,7 +25,10 @@ function App() {
       <Route path='/messages' element={<Message/>} />
       <Route path='/profile' element={<Profile/>} />
      </Routes>
+
+     <div className='hidden xl:block'>
      <Widgets/>
+     </div>
     </div>
     </>
   )

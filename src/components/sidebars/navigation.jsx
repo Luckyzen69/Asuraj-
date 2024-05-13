@@ -10,21 +10,21 @@
   export default function Navigation(){
       return ( 
           <>
-          <section className='sticky top-0'>
+          <section className=' '>
 
-  <div className='flex p-2 m-2 '>
-  <img src={Idk} alt="logo" className='h-10 w-10 m-2 rounded-md' />
-  <h1 className='text-4xl font-serif m-2 text-violet'>Asuraj</h1>
+  <div className='flex p-2 m-2 lg:sticky fixed  '>
+  <img src={Idk} alt="logo" className='h-10 w-10 lg:m-2 rounded-md' />
+  <h1 className='text-4xl font-serif m-2 text-violet hidden lg:block'>Asuraj</h1>
   </div>
 
-  <div className='flex flex-col    '> 
+  <div className='flex lg:flex-col fixed  bottom-0 lg:top-24 flex-row  md:right-24 lg:left-10 lg:right-auto bg-white lg:border-none'> 
 
 <Link to="/home"><SidebarOption active text="Home" Icon={BiHomeHeart} /></Link> <hr />
 <Link to="/search"><SidebarOption text="Search" Icon={BiSearchAlt}  /></Link> <hr />
 <Link to="messages"><SidebarOption text="Message" Icon={TbMessage} /></Link> <hr />
 <Link to="/notifications"><SidebarOption text="Notifications" Icon={LiaHotjar}  /></Link> <hr />
 <Link to="/profile"><SidebarOption text="Profile" Icon={ImProfile}  /></Link> <hr />
-<button variant="outlined" className=" text-3xl font-mono border rounded-lg border-slate-950 hover:bg-slate-900 hover:text-white  " >Post</button>
+<button variant="outlined" className=" text-3xl font-mono border rounded-lg border-slate-950 hover:bg-slate-900 hover:text-white lg:block hidden  " >Post</button>
   </div>
   </section>
           </>
