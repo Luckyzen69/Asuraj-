@@ -13,7 +13,7 @@
           <section className=' '>
 
   <div className='flex p-2 m-2 lg:sticky fixed  '>
-  <img src={Idk} alt="logo" className='h-10 w-10 lg:m-2 rounded-md' />
+  <img src={Idk} alt="logo" className='h-10 w-10 lg:m-2 rounded-md hidden md:block' />
   <h1 className='text-4xl font-serif m-2 text-violet hidden lg:block'>Asuraj</h1>
   </div>
 
