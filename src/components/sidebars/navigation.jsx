@@ -15,6 +15,8 @@
   <div className='flex p-2 m-2 lg:sticky fixed  '>
   <img src={Idk} alt="logo" className='h-10 w-10 lg:m-2 rounded-md hidden md:block' />
   <h1 className='text-4xl font-serif m-2 text-violet hidden lg:block'>Asuraj</h1>
+  <Link to ="/login">Login</Link> 
+  <Link to ="/Signup">SignUp</Link>
   </div>
 
   <div className='flex lg:flex-col fixed  bottom-0 lg:top-24 flex-row  md:right-24 lg:left-10 lg:right-auto bg-white lg:border-none'> 

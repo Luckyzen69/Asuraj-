@@ -37,7 +37,9 @@ export default function Post({
            </div>
         </div>
          </div>
-        <img src={Forest} alt="" className=' h-36  md:h-72 object-cover w-auto rounded-md ml-1 flex justify-center items-center' />
+         <div className='flex justify-center'>
+        <img src={Forest} alt="" className=' h-36 sm:h-72  w-auto rounded-md ml-1 flex justify-center items-center' />
+         </div>
          <div className='flex text-2xl md:text-3xl space-x-5 sm:space-x-8 md:space-x-24 m-2'>
          <span className='flex flex-row justify-center items-center '>  <FaHeart className='text-red-800 '/> <span className='text-xl ml-2 mb-2'>20.4k</span></span>
            <span className='flex items-center justify-center flex-row'> <FaRegComment /> <span className='text-xl md:text-2xl ml-2 mb-2'>5k</span></span>

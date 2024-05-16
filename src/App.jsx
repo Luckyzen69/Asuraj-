@@ -8,6 +8,8 @@ import Notification from './components/notifications/notification'
 import Search from './components/search/search'
 import Message from './components/messages/messages'
 import Profile from './components/profile/profile'
+import Login from './components/auth/login'
+import Signup from './components/auth/signup'
 
 function App() {
 
@@ -23,11 +25,14 @@ function App() {
       <Route path='/notifications' element={<Notification/>} />
       <Route path='/search' element={<Search/>} />
       <Route path='/messages' element={<Message/>} />
-      <Route path='/profile' element={<Profile/>} />
+      <Route path='/profile' element={<Profile/>} />  
+      <Route path='/login' element={<Login/>} />  
+      <Route path='/signup' element={<Signup/>} />  
      </Routes>
 
      <div className='hidden xl:block'>
      <Widgets/>
+     
      </div>
     </div>
     </>
